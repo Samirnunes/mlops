@@ -15,4 +15,8 @@ The necessary env vars are:
 - `MLFLOW_HOST = 0.0.0.0`
 - `MLFLOW_PORT = 80`
 
-Each description of the `MLFLOW_` variables is present in the reference:  https://mlflow.org/docs/latest/cli.html
+Each description of the `MLFLOW_` variables is present in the reference:  
+
+- https://mlflow.org/docs/latest/cli.html
+
+To authenticate in the API, you must configure in the client the env vars `MLFLOW_TRACKING_USERNAME`, `MLFLOW_TRACKING_PASSWORD` and `MLFLOW_TRACKING_URI` with the same values as the server's.
