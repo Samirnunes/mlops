@@ -2,6 +2,8 @@
 
 This repository contains a `Dockerfile` and an environment with `Poetry` that can be used to deploy a self-hosted MLflow server, considering your env vars are configured in AWS Systems Manager. Besides, the server has basic auth, that is, you must authenticate using an username and a password.
 
+To effectively make the deploy, run the `Dockerfile` in an infrastructure in AWS ECS or similar. It is advisable to integrate the `Dockerfile` run in a CI/CD pipeline with build and deploy stages.
+
 The necessary env vars are:
 
 - `AWS_ACCESS_KEY_ID`
