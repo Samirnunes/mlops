@@ -1,4 +1,4 @@
-# Prefect Server Deploy Guide
+# Prefect API and UI Server Deploy Guide
 
 This repository contains a `Dockerfile` and an environment with `Poetry` that can be used to deploy a self-hosted Prefect server, considering your env vars are configured in AWS Systems Manager. Besides, the server has basic auth, that is, you must authenticate using an username and a password.
 
