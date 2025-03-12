@@ -1,6 +1,6 @@
 # MLOps
 
-MLOps content.
+Repository containing MLOps practical content.
 
 - [MLflow self-host deploy guide](./mlflow-server)
 
